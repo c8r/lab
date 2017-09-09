@@ -11,4 +11,4 @@ Next: [Getting Started][intro]
 
 <!-- todo: update when live -->
 [dl]: http://jxnblk.com/lab
-[intro]: getting-started.md
+[intro]: getting-started

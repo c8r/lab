@@ -3,9 +3,9 @@
 
 To get started choose a folder for a new project, where Lab will save a `lab.json` and `theme.json` file.
 We recommend you keep this folder under source control, such as git.
-Lab will automatically save changes made in the app, and by making use of source control, you'll keep a history of changes and make collaborating with others easier.
+Lab will automatically save changes made in the app, and by making use of source control, you‘ll keep a history of changes and make collaborating with others easier.
 
-Once you've got a new project open,
+Once you‘ve got a new project open,
 click the *Theme* tab at the top to set global styles for typography, color, and layout.
 
 Lab helps keep your UI visually consistent by following front end development best practices and adhering to constraint-based scales.
@@ -15,24 +15,23 @@ This helps keep elements properly aligned and creates a visual rhythm throughout
 ## Components
 
 Next, click on the *Components* tab to view the library of UI components.
-
-    >> You'll see an blank slate
+You‘ll see an empty screen to start with, so you‘ll need to create some components.
 
 Click the Add button in the upper right to create a new component.
 Choose one of the built-in templates to start creating a component.
 Give your new component a unique name. We recommend keeping it simple to start with, e.g. Button instead of PrimaryActionButton.
 
-Once you've created the component, you should see a minimally styled version, along with the style panel on the right.
+Once you‘ve created the component, you should see a minimally styled version, along with the style panel on the right.
 
 Try adjusting the styles on the right and creating a component that fits in with your visual style.
 
 
 ## Example Props
 
-Once you've got some basic styles set, you'll want to test the component out with different states to make sure it works.
+Once you‘ve got some basic styles set, you‘ll want to test the component out with different states to make sure it works.
 
 React uses *props* to pass values into a component from the parent.
-At the bottom of the right panel, you'll see a section called *Example Props*.
+At the bottom of the right panel, you‘ll see a section called *Example Props*.
 In the first code editor, try adding the following:
 
 ```js

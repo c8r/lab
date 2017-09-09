@@ -10,5 +10,5 @@ Open the application and enter the license key you received in your purchase ema
 Next: [Getting Started][intro]
 
 <!-- todo: update when live -->
-[dl]: http://jxnblk.com/lab
+[dl]: https://compositor.io/lab
 [intro]: getting-started.md

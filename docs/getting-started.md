@@ -8,6 +8,8 @@ Lab will automatically save changes made in the app, and by making use of source
 Once you‘ve got a new project open,
 click the *Theme* tab at the top to set global styles for typography, color, and layout.
 
+![theme view](images/theme.png)
+
 Lab helps keep your UI visually consistent by following front end development best practices and adhering to constraint-based scales.
 This helps keep elements properly aligned and creates a visual rhythm throughout your user interface.
 
@@ -17,13 +19,19 @@ This helps keep elements properly aligned and creates a visual rhythm throughout
 Next, click on the *Components* tab to view the library of UI components.
 You‘ll see an empty screen to start with, so you‘ll need to create some components.
 
+![empty state](images/empty-state.png)
+
 Click the Add button in the upper right to create a new component.
 Choose one of the built-in templates to start creating a component.
 Give your new component a unique name. We recommend keeping it simple to start with, e.g. Button instead of PrimaryActionButton.
 
+![create component view](images/create-button.png)
+
 Once you‘ve created the component, you should see a minimally styled version, along with the style panel on the right.
 
 Try adjusting the styles on the right and creating a component that fits in with your visual style.
+
+![detail view](images/detail.png)
 
 
 ## Example Props
@@ -78,6 +86,8 @@ React component created outside of Lab can be imported to view them side-by-side
 
 To import a component, select the `File > Import Component` menu item.
 Navigate to a component within the same folder as your project to select a component for importing.
+
+![external component](images/detail-external.png)
 
 Once a component is loaded into your project, you can make changes to the source file in your own text editor,
 and changes will be automatically reloaded in Lab.

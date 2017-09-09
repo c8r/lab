@@ -5,8 +5,8 @@ Lab is a new type of design tool that allows you to create production ready Reac
 
 ## Documentation
 
-- [Installation](installation)
-- [Getting Started](getting-started)
+- [Installation](installation.md)
+- [Getting Started](getting-started.md)
 
 
 ## Support

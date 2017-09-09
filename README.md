@@ -1,3 +1,4 @@
 
 # Compositor Lab
 
+[Documentation](docs)

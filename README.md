@@ -1,4 +1,5 @@
 
-# Compositor Lab
+# Compositor Lab beta
+
 
 [Documentation](docs)

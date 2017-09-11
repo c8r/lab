@@ -1,35 +1,34 @@
 
 ## Getting Started
 
-To get started choose a folder for a new project, where Lab will save a `lab.json` and `theme.json` file.
-We recommend you keep this folder under source control, such as git.
+First, choose a folder for a new project. This can be an existing react project that has a collection of components. Lab will save a `lab.json` and `theme.json` file.
+We recommend you keep this folder under source control, using such as [git](https://git-scm.com).
 Lab will automatically save changes made in the app, and by making use of source control, you‘ll keep a history of changes and make collaborating with others easier.
 
 Once you‘ve got a new project open,
-click the *Theme* tab at the top to set global styles for typography, color, and layout.
+click the *Theme* (⌘2) tab at the top to set global styles for typography, color, and layout.
 
 ![theme view](images/theme.png)
 
-Lab helps keep your UI visually consistent by following front end development best practices and adhering to constraint-based scales.
-This helps keep elements properly aligned and creates a visual rhythm throughout your user interface.
-
+Lab helps create a visually consistent UI library by adhering to constraint-based scales.
+This keeps elements properly aligned and adds a visual rhythm throughout your user interface.
 
 ## Components
 
-Next, click on the *Components* tab to view the library of UI components.
-You‘ll see an empty screen to start with, so you‘ll need to create some components.
+Next, click on the *Components* (⌘1) tab to view the library of UI components.
+You‘ll see an empty screen to start with, so you‘ll need to create or import some components.
 
 ![empty state](images/empty-state.png)
 
 Click the Add button in the upper right to create a new component.
-Choose one of the built-in templates to start creating a component.
-Give your new component a unique name. We recommend keeping it simple to start with, e.g. Button instead of PrimaryActionButton.
+Choose one of the built-in templates to start building and designing a component.
+Each component needs a unique name. We recommend keeping it simple to start with, e.g. Button instead of PrimaryActionButton.
 
 ![create component view](images/create-button.png)
 
-Once you‘ve created the component, you should see a minimally styled version, along with the style panel on the right.
+Once you‘ve created a component, you should see a minimally styled version, along with the style panel on the right.
 
-Try adjusting the styles on the right and creating a component that fits in with your visual style.
+Try adjusting the style controls on the right and creating a component that fits in with your visual style.
 
 ![detail view](images/detail.png)
 
@@ -48,7 +47,7 @@ In the first code editor, try adding the following:
 }
 ```
 
-The syntax here is a plain JavaScript object. This object is passed into the component, similar to adding attributes to an HTML element.
+The syntax here is a plain JavaScript object. This object is passed into the component, similar to adding attributes (class, id, href, title, alt, etc.) to an HTML element.
 
 If this were using JSX syntax, it would look like the following:
 
@@ -82,7 +81,7 @@ All values need to be JavaScript strings, which means they should be enclosed in
 
 ## Importing Components
 
-React component created outside of Lab can be imported to view them side-by-side and with different example props.
+A react component created outside of Lab can be imported to Lan. You can view them side-by-side and with different example props.
 
 To import a component, select the `File > Import Component` menu item.
 Navigate to a component within the same folder as your project to select a component for importing.

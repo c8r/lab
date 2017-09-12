@@ -55,7 +55,11 @@ module.exports = props => (
                 loop
                 muted>
                 <source
-                  src={video}
+                  src='https://s3-us-west-1.amazonaws.com/c8r-demo/lab-demo.webm'
+                  type='video/webm'
+                />
+                <source
+                  src='https://s3-us-west-1.amazonaws.com/c8r-demo/lab-demo.mp4'
                   type='video/mp4'
                 />
               </Video>

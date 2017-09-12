@@ -59,9 +59,11 @@ module.exports = dxs([
     type: 'a',
     props: {
       px: 5,
-      py: 3
+      py: 3,
+      color: 'inherit'
     },
     style: {
+      textDecoration: 'none',
       borderWidth: '1px',
       borderStyle: 'solid',
       borderRadius: '2px',

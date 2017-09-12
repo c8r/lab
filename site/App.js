@@ -21,6 +21,7 @@ const {
   Video,
 } = require('./components')
 const theme = require('./theme')
+const BuyButton = require('./BuyButton')
 
 const video = 'https://s3-us-west-1.amazonaws.com/c8r-demo/longdemo.mp4'
 
@@ -49,7 +50,7 @@ module.exports = props => (
             />
           </H1>
           <Box pb={5} align='center'>
-            <Box mx={-2}>
+            <Box mx={-2} mb={4}>
               <Video
                 autoPlay
                 loop
@@ -64,13 +65,9 @@ module.exports = props => (
                 />
               </Video>
             </Box>
-            <Btn
-              color='white'
-              mt={4}
-              children='Buy Now'
-            />
+            <BuyButton />
             <P>
-              <Strike>$16</Strike> $8/month
+              MacOS <Strike>$16</Strike> $8/month
             </P>
           </Box>
         </Box>

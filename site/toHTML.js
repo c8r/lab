@@ -9,6 +9,11 @@ module.exports = ({
 body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.25;margin:0}
 </style>
 <style>${css}</style>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@getcompositor' />
+<meta name='twitter:title' content='Compositor Lab' />
+<meta name='twitter:description' content='' />
+<meta name='twitter:image' content='https://compositor.io/logo/dist/lab.png' />
 ${body}
 <script>
 (function(i, s, o, g, r, a, m) {

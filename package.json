@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node site/render.js"
+  },
+  "dependencies": {
+    "@compositor/logo": "^1.2.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cxs": "^6.0.0",
+    "dxs": "^1.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

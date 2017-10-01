@@ -38,36 +38,30 @@ Try adjusting the style controls on the right and creating a component that fits
 Once you‘ve got some basic styles set, you‘ll want to test the component out with different states to make sure it works.
 
 React uses *props* to pass values into a component from the parent.
-At the bottom of the right panel, you‘ll see a section called *Example Props*.
+At the bottom of the right panel, you‘ll see a section called *Examples*.
+Examples use JSX syntax so you can test how your component would work
+in a real React application.
+
 In the first code editor, try adding the following:
 
 ```js
-{
-  children: 'Hello'
-}
+<Button>
+  Hello
+</Button>
 ```
-
-The syntax here is a plain JavaScript object. This object is passed into the component, similar to adding attributes (class, id, href, title, alt, etc.) to an HTML element.
-
-If this were using JSX syntax, it would look like the following:
-
-```jsx
-<Button children='hello' />
-```
-
-The `children` prop is React‘s way of handling composition.
-By passing a string as children into the component, you‘ve set the text inside the component.
 
 Next, below the code editor, click the *Add Example* button.
-In the new editor box, add another `children` prop, but this time add a longer string of text.
+In the new editor box, add a longer string of text.
 
 ```js
-{
-  children: 'Well howdy there partner'
-}
+<Button>
+  Hello there, how are you?
+</Button>
 ```
 
 You can now switch between these two examples to see how your component responds in different situations.
+
+Click the *Show all examples* radio to show all examples at once.
 
 
 ## Customizing Styles

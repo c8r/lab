@@ -8,7 +8,7 @@ Lab is a new type of design tool that allows you to create production ready Reac
 - [Installation](installation.md)
 - [Getting Started](getting-started.md)
 - [Extending components](extending.md)
-- [Composite components](composite.md)
+- [Composite components](composite-components.md)
 - [Importing components](importing.md)
 - [Exporting components](exporting.md)
 <!--

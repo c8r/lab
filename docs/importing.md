@@ -21,3 +21,4 @@ and changes will be automatically reloaded in Lab.
 - Make sure your component *DOES NOT* make use of any webpack loaders or other build-specific tools.
 - Lab currently only supports standard ECMAScript (ES). Components written in other formats such as TypeScript will need to be converted to ES before importing them.
 
+- Next: [Exporting Components](exporting.md)

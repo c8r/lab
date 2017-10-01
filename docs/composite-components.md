@@ -38,6 +38,7 @@ Since Lab components use [styled-system][system] you can adjust things like marg
 used in your composite component.
 
 
+- Next: [Importing Components](importing.md)
 
 [system]: https://github.com/jxnblk/styled-system
 [react-props]: https://reactjs.org/docs/components-and-props.html

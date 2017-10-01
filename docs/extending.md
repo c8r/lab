@@ -27,3 +27,5 @@ and the BigButton component inherited the new border radius.
 
 ![extended component library view](images/extend-base-edits.png)
 
+
+- Next: [Composite Components](composite-components.md)

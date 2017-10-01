@@ -25,5 +25,5 @@ will also be inherited by the extended component.
 In this example, the border radius was adjusted on the Button component,
 and the BigButton component inherited the new border radius.
 
-![extended component library view](images/extend-library.png)
+![extended component library view](images/extend-base-edits.png)
 

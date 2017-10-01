@@ -21,15 +21,17 @@ other composite components cannot be imported.
 
 ![composite component imports field](images/composite-imports.png)
 
-Then, in the JSX editor, start using the imported components to build a composite component.
+Next, in the JSX editor, start using the imported components to build a composite component.
 To allow the values used in the composite component to be changed dynamically, use [React props][react-props].
 
 Don't worry if the component isn't perfect at this step, you'll be able to edit it in the next step.
 
 ![composite component JSX field](images/composite-jsx.png)
 
-Click the *Create Component* button to add the new composite component to your library
-and start editing it.
+Give your new component a unique name, then click the *Create Component* button to add the component to your library and start editing it.
+
+![composite component name field](images/composite-name.png)
+
 To start, make sure you add an example in the *Examples* editor to give your component some test content.
 
 ![composite component examples](images/composite-examples.png)

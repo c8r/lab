@@ -1,5 +1,5 @@
 
-## Getting Started
+# Getting Started
 
 First, choose a folder for a new project. This can be an existing react project that has a collection of components. Lab will save a `lab.json` and `theme.json` file.
 We recommend you keep this folder under source control, using such as [git](https://git-scm.com).

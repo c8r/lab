@@ -19,6 +19,6 @@ and changes will be automatically reloaded in Lab.
 - Make sure components are located within the same root folder as your Lab project or in a subdirectory.
 - Make sure any npm dependencies have been installed in your project by running `npm install` in your terminal.
 - Make sure your component *DOES NOT* make use of any webpack loaders or other build-specific tools.
-- Lab currently only supports standard ECMAScript (ES). Components written in other formats such as TypeScript will need to be converted to ES before importing them.
+- Lab currently only supports standard ECMAScript (ES). Components written in other formats such as TypeScript will need to be converted to ES before importing.
 
 - Next: [Exporting Components](exporting.md)

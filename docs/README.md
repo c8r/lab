@@ -11,6 +11,7 @@ Lab is a new type of design tool that allows you to create production ready Reac
 - [Composite components](composite-components.md)
 - [Importing components](importing.md)
 - [Exporting components](exporting.md)
+- [Using with npm](npm.md)
 
 
 ## Support

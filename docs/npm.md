@@ -79,3 +79,11 @@ _Note:_ For now, only projects that specify a `lab.json` file can be imported.
 
 ![Using Compositor Lab to import a component from npm](https://user-images.githubusercontent.com/1424573/31863762-90251f3a-b70f-11e7-90e6-5bb667598828.png)
 
+---
+
+- [Installation](installation.md)
+- [Getting Started](getting-started.md)
+- [Extending components](extending.md)
+- [Composite components](composite-components.md)
+- [Importing components](importing.md)
+- [Exporting components](exporting.md)

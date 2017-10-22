@@ -72,4 +72,4 @@ Styled-system allows you to control font-size, margin, padding, color, and more 
 
 [system]: https://github.com/jxnblk/styled-system
 
-- Next: [Extending components](extending.md)
+- Next: [Using with npm](npm.md)

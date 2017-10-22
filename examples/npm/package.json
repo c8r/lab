@@ -1,0 +1,18 @@
+{
+  "name": "lab-with-npm",
+  "version": "0.0.1",
+  "description": "Example using Compositor Lab with npm",
+  "main": "dist/index.js",
+  "lab": "lab.json",
+  "scripts": {
+    "prepublish": "lab --pkg -d dist",
+    "start": "lab --pkg -wd dist"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^2.2.1"
+  },
+  "devDependencies": {
+    "@compositor/lab": "^1.0.0-32"
+  }
+}

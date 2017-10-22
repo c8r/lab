@@ -1,0 +1,31 @@
+{
+  "name": "lab-with-npm",
+  "library": "styled-components",
+  "components": [
+    {
+      "name": "Button",
+      "type": "button",
+      "props": {
+        "fontSize": 2,
+        "color": "white",
+        "bg": "blue",
+        "px": 4,
+        "fontWeight": "600",
+        "py": 2
+      },
+      "style": {
+        "display": "inline-block",
+        "fontFamily": "inherit",
+        "borderWidth": 0,
+        "borderRadius": "4px",
+        "appearance": "none"
+      },
+      "examples": [
+        "<Button>Hello</Button>"
+      ],
+      "system": [
+        "fontWeight"
+      ]
+    }
+  ]
+}

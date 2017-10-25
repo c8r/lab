@@ -75,7 +75,7 @@ Next, open up the Lab app and navigate to `File > Import npm Package` and select
 You will then see the components automatically added to your library.
 For this example, you will see a `Button` component show up.
 
-_Note:_ For now, only projects that specify a `lab.json` file can be imported.
+_Note:_ For now, only npm packages that specify a `lab` key in their `package.json` that references a `lab.json` file can be imported.
 
 ![Using Compositor Lab to import a component from npm](https://user-images.githubusercontent.com/1424573/31863762-90251f3a-b70f-11e7-90e6-5bb667598828.png)
 

@@ -68,15 +68,14 @@ See a full repo example [here](https://github.com/c8r/lab/tree/master/examples/n
 The Lab app also allows you to import components that you've installed from npm.
 
 In order to install a package, change directory to your project's root and run `npm install`.
-For this example, we'll use [`lab-with-npm`](https://github.com/c8r/lab/tree/master/examples/npm) `npm install --save lab-with-npm`.
+For this example, we'll use [`@compositor/mono`](https://www.npmjs.com/package/@compositor/mono) `npm install --save @compositor/mono`.
 
-Next, open up the Lab app and navigate to `File > Import npm Package` and select `lab-with-npm`.
+Next, open up the Lab app and navigate to `File > Import npm Package` and select `@compositor/mono`.
 You will then see the components automatically added to your library.
-For this example, you will see a `Button` component show up.
 
 _Note:_ For now, only npm packages that specify a `lab` key in their `package.json` that references a `lab.json` file can be imported.
 
-![Using Compositor Lab to import a component from npm](https://user-images.githubusercontent.com/1424573/31863762-90251f3a-b70f-11e7-90e6-5bb667598828.png)
+![Using Compositor Lab to import a component from npm](https://user-images.githubusercontent.com/1424573/32017387-cade2d8a-b983-11e7-900a-90bda586905a.png)
 
 ---
 

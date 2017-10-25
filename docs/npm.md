@@ -68,7 +68,7 @@ See a full repo example [here](https://github.com/c8r/lab/tree/master/examples/n
 The Lab app also allows you to import components that you've installed from npm.
 
 In order to install a package, change directory to your project's root and run `npm install`.
-For this example, we'll use [`@compositor/mono`](https://www.npmjs.com/package/@compositor/mono) `npm install --save @compositor/mono`.
+For this example, we'll use [`@compositor/mono`](https://www.npmjs.com/package/@compositor/mono) with `npm install --save @compositor/mono`.
 
 Next, open up the Lab app and navigate to `File > Import npm Package` and select `@compositor/mono`.
 You will then see the components automatically added to your library.

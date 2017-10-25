@@ -5,14 +5,13 @@ Components built in Lab can be published to npm and imported into other Lab or n
 
 ## Publishing as an npm package
 
-First, change directory to your Lab project.
-Then install the `@compositor/lab` which is the command line version of the Lab app.
+First, change directory to your Lab project and run `npm init -y` if you don't have a `pacakge.json`. Then install the `@compositor/lab` which is the command line version of the Lab app.
 
 ```
 npm install --save-dev @compositor/lab
 ```
 
-Next add the two following scripts to your `package.json` (or run `npm init -y` if you don't yet have that file).
+Next add the two following scripts to your `package.json`.
 
 ```js
 "scripts": {

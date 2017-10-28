@@ -14,9 +14,12 @@ npm install --save-dev @compositor/lab
 Next add the two following scripts to your `package.json`.
 
 ```js
-"scripts": {
-  "prepublish": "lab --pkg -d dist",
-  "start": "lab --pkg -wd dist"
+{
+  "name": "new-lab-project",
+  "scripts": {
+    "prepublish": "lab --pkg -d dist",
+    "start": "lab --pkg -wd dist"
+  }
 }
 ```
 
@@ -24,8 +27,17 @@ Lastly for configuring the `package.json`, you will need to add a reference to `
 This points to the location of the Lab config file in your project.
 It's often found at the root of your project.
 
-```
-"lab": "lab.json"
+Resulting in the full `package.json` contents:
+
+```js
+{
+  "name": "new-lab-project",
+  "lab": "lab.json",
+  "scripts": {
+    "prepublish": "lab --pkg -d dist",
+    "start": "lab --pkg -wd dist"
+  }
+}
 ```
 
 ##### Prepublish
@@ -44,6 +56,20 @@ Lastly, we need to reference the built version of the components so that npm kno
 
 ```js
 "main": "dist/index.js"
+```
+
+Resulting in the final `package.json` contents:
+
+```js
+{
+  "name": "new-lab-project",
+  "main": "dist/index.js"
+  "lab": "lab.json",
+  "scripts": {
+    "prepublish": "lab --pkg -d dist",
+    "start": "lab --pkg -wd dist"
+  }
+}
 ```
 
 ### Publishing

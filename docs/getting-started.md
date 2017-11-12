@@ -1,12 +1,11 @@
-
 # Getting Started
 
 First, choose a folder for a new project. This can be an existing react project that has a collection of components. Lab will save a `lab.json` and `theme.json` file.
-We recommend you keep this folder under source control, using such as [git](https://git-scm.com).
+We recommend you keep this folder under source control, using such as [`git`](https://git-scm.com).
 Lab will automatically save changes made in the app, and by making use of source control, you‘ll keep a history of changes and make collaborating with others easier.
 
 Once you‘ve got a new project open,
-click the *Theme* (⌘2) tab at the top to set global styles for typography, color, and layout.
+click the `Theme` (⌘2) tab at the top to set global styles for typography, color, and layout.
 
 ![theme view](images/theme.png)
 
@@ -37,8 +36,8 @@ Try adjusting the style controls on the right and creating a component that fits
 
 Once you‘ve got some basic styles set, you‘ll want to test the component out with different states to make sure it works.
 
-React uses *props* to pass values into a component from the parent.
-At the bottom of the right panel, you‘ll see a section called *Examples*.
+React uses `props` to pass values into a component from the parent.
+At the bottom of the right panel, you‘ll see a section called **Examples**.
 Examples use JSX syntax so you can test how your component would work
 in a real React application.
 
@@ -50,7 +49,7 @@ In the first code editor, try adding the following:
 </Button>
 ```
 
-Next, below the code editor, click the *Add Example* button.
+Next, below the code editor, click the `Add Example` button.
 In the new editor box, add a longer string of text.
 
 ```js

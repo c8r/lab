@@ -1,9 +1,8 @@
-
 # Installation
 
 [Download the latest][dl] version of the app.
 
-Once it's downloaded, open the `.dmg` file and drag the Lab icon to the Applications folder.
+Once you've downloaded Lab, open the `.dmg` file and drag the Lab icon to the Applications folder.
 
 ![installation](images/dmg.png)
 

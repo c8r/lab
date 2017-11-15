@@ -1,17 +1,12 @@
-
 # Importing Components
 
-A React component created outside of Lab can be imported to Lab.
-This is helpful for viewing your Lab components in the context
-of others, and for using Lab as an isolated development environment.
+You can import React components created elsewhere into Lab. This is helpful for viewing your Lab components in a different context and for using Lab as an isolated development environment.
 
-To import a component, select the `File > Import Component` menu item.
-Navigate to a component within the same folder as your project to select a component for importing.
+To import a component, select the _File > Import Component_ menu item and select a component in your project directory.
 
 ![external component](images/detail-external.png)
 
-Once a component is loaded into your project, you can make changes to the source file in your own text editor,
-and changes will be automatically reloaded in Lab.
+Once you've successfully imported the component, any changes you make to the imported component's with an external editor will automatically appear in Lab.
 
 *Troubleshooting*
 

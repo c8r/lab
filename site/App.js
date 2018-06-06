@@ -101,7 +101,7 @@ module.exports = props => (
         </BlockLink>
         <Box my={4} f={0}>
           Made in NY/LDN/ID •
-          © 2017 Compositor, Inc.
+          © {new Date().getFullYear()} Compositor, Inc.
           All Rights Reserved.
         </Box>
         <Link
